@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_stockView"
+            android:icon="@drawable/baseline_store_24"
+            android:title="Check Stock" />
+
+        <item
+            android:id="@+id/nav_partyBalance"
+            android:icon="@drawable/baseline_party_balance_24"
+            android:title="Party Balance" />
+        <item
+            android:id="@+id/nav_paymentView"
+            android:icon="@drawable/baseline_payments_24"
+            android:title="Make Payment" />
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/baseline_order_24"
+            android:title="Take Order" />
+    </group>
+
+
+</menu>
